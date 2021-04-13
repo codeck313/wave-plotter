@@ -8,3 +8,6 @@ For Signals and System assignment
 
 ## Setup
 Create a folder named **data** and put your *.wav* files in that (some example data is given in the folder). Then after running the script you should be able to see another folder named **output** be populated with output wave form data.
+
+## Example Output
+![Whistling wav](https://user-images.githubusercontent.com/23121752/114578647-b3c71f00-9c9a-11eb-8e33-3405ab1dcd1d.png)
