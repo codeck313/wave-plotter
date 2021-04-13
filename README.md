@@ -7,4 +7,4 @@ For Signals and System assignment
 > sound signal.
 
 ## Setup
-Create a folder named **data** and put your *.wav* files in that. Then after running the script you should be able to see another folder named **output** be populated with output wave form data.
+Create a folder named **data** and put your *.wav* files in that (some example data is given in the folder). Then after running the script you should be able to see another folder named **output** be populated with output wave form data.
