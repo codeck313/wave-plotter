@@ -7,7 +7,8 @@ For Signals and System assignment
 > sound signal.
 
 ## Setup
-Create a folder named **data** and put your *.wav* files in that (some example data is given in the folder). Then after running the script you should be able to see another folder named **output** be populated with output wave form data.
+Create a folder named **data** and put your *.wav* files in that (some example data is given in the folder). Then after running the script you should be able to see another folder named **output** be populated with output wave form data (continous and discrete time graph).
 
 ## Example Output
 ![Whistling wav](https://user-images.githubusercontent.com/23121752/114578647-b3c71f00-9c9a-11eb-8e33-3405ab1dcd1d.png)
+![Writing-Discrete](https://user-images.githubusercontent.com/23121752/115126476-df287180-9fec-11eb-8997-c14c686b0131.png)
