@@ -8,7 +8,7 @@ import scipy.signal as sps
 
 # Configuring the matplotlib and numpy param
 mpl.rcParams['agg.path.chunksize'] = 10000
-np.seterr(divide='ignore')
+numpy.seterr(divide='ignore')
 
 # Fetching the file list and making sure output folder is present
 fileNames = os.listdir('./data')
@@ -49,13 +49,13 @@ for _file in fileNames:
     plot_f = plt.subplot(312)
     plot_d = plt.subplot(313)
 
-    plt.suptitle(_file+'\n', fontsize=25)
-    plot_t.set_ylabel('Amplitude', fontsize=15)
-    plot_t.set_xlabel('Time \n', fontsize=15)
-    plot_f.set_ylabel('Frequency', fontsize=15)
-    plot_f.set_xlabel('Time\n', fontsize=15)
-    plot_d.set_ylabel('Amplitude', fontsize=15)
-    plot_d.set_xlabel('Time(Discrete)\n', fontsize=15)
+    plt.suptitle(_file+'\n')
+    plot_t.set_ylabel('Amplitude')
+    plot_t.set_xlabel('Time \n')
+    plot_f.set_ylabel('Frequency')
+    plot_f.set_xlabel('Time\n')
+    plot_d.set_ylabel('Amplitude')
+    plot_d.set_xlabel('Time(Discrete)\n')
 
     # plotting
 
@@ -66,8 +66,8 @@ for _file in fileNames:
     for channel in deinterleavedDiscrete:
         plot_d.stem(timeDiscrete, channel)
     plt.tight_layout()
-    plt.show()
-    # plt.savefig('output/'+_file+'.png', dpi=512)
+    # plt.show()
+    plt.savefig('output/'+_file+'.png', dpi=512)
     plt.close()
 
 print("---DONE---")
