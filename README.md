@@ -10,4 +10,5 @@ For Signals and System assignment
 Create a folder named **data** and put your *.wav* files in that (some example data is given in the folder). Then after running the script you should be able to see another folder named **output** be populated with output wave form data (continous and discrete time graph).
 
 ## Example Output
-![Whistling](https://user-images.githubusercontent.com/23121752/115135522-ba58ec00-a036-11eb-80bf-a25eac0a0fd5.jpg)
+![Turning of pages](https://user-images.githubusercontent.com/23121752/115135829-1faddc80-a039-11eb-9240-b0f8aa18516c.jpg)
+
